@@ -1,3 +1,7 @@
 {
-  "extends": "@antfu"
+  "extends": "@antfu",
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  }
 }
