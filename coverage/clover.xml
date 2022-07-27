@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658934860436" clover="3.2.0">
-  <project timestamp="1658934860436" name="All files">
+<coverage generated="1658935166245" clover="3.2.0">
+  <project timestamp="1658935166245" name="All files">
     <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3" elements="27" coveredelements="27" complexity="0" loc="21" ncloc="21" packages="1" files="2" classes="2"/>
     <file name="storage.ts" path="/Users/lixudong/Desktop/jest-starter/src/utils/storage.ts">
       <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
