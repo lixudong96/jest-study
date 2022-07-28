@@ -7,17 +7,32 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@types/jest": "27.4.1",
     "eslint": "^8.20.0",
     "eslint-plugin-jest": "^26.6.0",
+    "husky": "^8.0.1",
     "jest": "27.5.1",
     "jest-environment-jsdom-global": "3.0.0",
     "jest-location-mock": "1.0.9",
+    "lint-staged": "^13.0.3",
     "ts-jest": "27.1.4",
     "typescript": "4.6.3"
+  },
+  "lint-staged": {
+    "*.{js,ts,json,md}": [
+      "eslint --fix"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }
