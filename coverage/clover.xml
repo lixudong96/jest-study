@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658972909514" clover="3.2.0">
-  <project timestamp="1658972909514" name="All files">
-    <metrics statements="56" coveredstatements="56" conditionals="7" coveredconditionals="7" methods="5" coveredmethods="5" elements="68" coveredelements="68" complexity="0" loc="56" ncloc="56" packages="1" files="4" classes="4"/>
+<coverage generated="1658976724158" clover="3.2.0">
+  <project timestamp="1658976724158" name="All files">
+    <metrics statements="67" coveredstatements="67" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6" elements="82" coveredelements="82" complexity="0" loc="67" ncloc="67" packages="1" files="5" classes="5"/>
+    <file name="after1000ms.ts" path="/Users/lixudong/Desktop/jest-study/src/utils/after1000ms.ts">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
     <file name="getSearchObj.ts" path="/Users/lixudong/Desktop/jest-study/src/utils/getSearchObj.ts">
       <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
